@@ -7,6 +7,7 @@ import index from "../index.css";
 
 
 
+
 const Quiz = () => {
   const [quizState, dispatch] = useContext(QuizContext);
   const progress = (quizState.currentQuestionIndex /

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faXmark } from '@fortawesome/free-solid-svg-icons';
 
 const Answer = ({answerText, onSelectAnswer, index, currentAnswer, correctAnswer}) => {
-    const letterMapping = ['A', 'B', 'C', 'D'];
+  
     const isCorrectAnswer = currentAnswer && answerText ===correctAnswer;
     const isWrongAnswer = currentAnswer=== answerText && currentAnswer !== correctAnswer;
     const correctAnswerClass= isCorrectAnswer ?  'correct-answer' : '';
