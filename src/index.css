@@ -1,0 +1,280 @@
+body {
+  /* background-color: #f2f2f2; */
+  background:
+
+  radial-gradient(circle, #D6D6D6 0.2px, transparent 1px),
+  #FFFFFF;
+background-size: 12px 12px;
+}
+
+
+
+
+
+div {
+  box-sizing: border-box;
+}
+
+.quiz {
+  width: 975px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=VT323&display=swap');
+
+
+
+
+
+.container {
+    position: relative;
+   
+    display: flex;
+    justify-content: center;
+  }
+  .navbar {
+    width: 520px;
+    height: 50px;
+    border-radius: 20px 20px 0px 0px;
+    border: 1px solid #000;
+    background: #3D3A3A;
+    position: relative;
+    z-index:2;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .blockquestion {
+    background-color: #F5F5F5;
+    color: #000;
+    padding: 10px;
+    width: 520px;
+    height: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid #000;
+    position: relative;
+    top: -50px; /* Position below the navbar */
+    left: 0;
+    z-index: 1;}
+
+.question {
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif; /* Add a generic font-family as a fallback */
+ padding: 30px;
+
+}
+
+
+.dots{
+  display: flex;
+  align-items: space-between;
+  margin-left: 10px;
+}
+.red-dots{
+  width: 14px;
+  height: 14px; 
+  background-color: #FF8577;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.yellow-dots{
+  width: 14px;
+  height: 14px; 
+  background-color: #FFC700;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+.green-dots{
+  width: 14px;
+  height: 14px; 
+  background-color: #2AAB5F;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin-left: 5px;
+}
+
+
+.results {
+  background-color: #fff;
+  height: 300px;
+  text-align: center;
+}
+
+.congratulations {
+  color:  #000;
+  padding: 20px;
+  font-size: 50px;
+  font-family: 'VT323';
+}
+
+.results-info {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'Rubik', sans-serif; 
+}
+
+.answer {
+/*   width: 48%;
+  background: #fff;
+  border: 2px solid #0094da;
+  min-height: 70px; */
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+width: 520px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 1px solid #000;
+background: #F5F5F5;
+margin-top:-6px;
+margin-left: -4px;
+justify-content: space-between;
+align-items: center;
+}
+
+.x{
+  
+  font-size: 28px;
+  margin-right: 20px;
+  font-weight: 100;
+  margin-left: 20px;
+}
+
+.answerbackgroundcorrect{
+  background: #D4EEDF;
+}
+.answerbackgroundincorrect{
+  background:#FFE7E4;
+}
+.answerzero{
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+width: 520px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 30px;
+border: #FFFF;
+background: #FFFF;
+
+}
+
+.answer:hover {
+  background-color:#D8D8D8;
+}
+.answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+;
+  
+}
+
+/* .answer-letter {
+  font-size: 30px;
+  background-color: #0084da;
+  color: #fff;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.answer-text {
+ 
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-left: 25px;
+}
+
+.correct-answer {
+  
+
+  cursor: pointer;
+  margin-bottom:20px;
+  display: flex;
+width: 520px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 1px solid #000;
+background: #2AAB5F;
+}
+
+/* .correct-answer .answer-letter {
+  background: #1ea55b;
+} */
+
+.wrong-answer {
+  cursor: pointer;
+  margin-bottom: 20px;
+  display: flex;
+width: 520px;
+height: 70px;
+flex-shrink: 0;
+border-radius: 30px;
+border: 1px solid #000;
+background: #FF8577;
+
+}
+
+/* .wrong-answer .answer-letter {
+  background: #dc0a0a;
+} */
+
+.next-button {
+  margin: 0 auto;
+  color: #fff;
+
+
+  font-size: 15px;
+
+
+ font-family: 'Rubik', sans-serif;
+cursor: pointer;
+width: 160px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 20px;
+border: 1px solid #000;
+background: #3D3A3A;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top:20px;
+}
+
+.score {
+ 
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: 'VT323';
+  text-transform: uppercase; 
+  z-index:3;
+}
+
+.disabled-answer {
+  pointer-events: none;
+}
