@@ -17,6 +17,7 @@ const Quiz = () => {
   const questionsright= (quizState.correctAnswersCount /quizState.question.length)* 317
   console.log("quizState", quizState);
   return (
+    
     <div className="quiz">
       {quizState.showResults && (
         <div className="results">
@@ -42,7 +43,7 @@ const Quiz = () => {
           <div className="next-button"
             onClick={() => dispatch({ type: "RESTART" })}
           > Restart </div>
-
+<index/> 
         </div>
       )}
       {!quizState.showResults && (
