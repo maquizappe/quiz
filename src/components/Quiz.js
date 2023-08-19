@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import Question from "./Question";
 import { QuizContext } from "../contexts/quiz";
-import index from "../index.css";
+import "../index.css";
 
 
 
@@ -43,7 +43,9 @@ const Quiz = () => {
           <div className="next-button"
             onClick={() => dispatch({ type: "RESTART" })}
           > Restart </div>
-<index/> 
+
+          
+ 
         </div>
       )}
       {!quizState.showResults && (
