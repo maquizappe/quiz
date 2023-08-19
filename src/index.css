@@ -120,7 +120,7 @@ div {
           .congratulations {
           color:  #000;
           padding: 20px;
-          font-size: 50px;
+          font-size: 45px;
           font-family: 'VT323';
           }
 
@@ -137,7 +137,7 @@ div {
           border: 2px solid #0094da;
           min-height: 70px; */
           cursor: pointer;
-          margin-bottom: 20px;
+          margin-bottom: 10px;
           display: flex;
           width: 320px;
           height: 70px;
@@ -178,9 +178,7 @@ div {
 
           }
 
-          .answer:hover {
-          background-color:#D8D8D8;
-          }
+      
           .answers {
           display: flex;
           flex-wrap: wrap;
@@ -190,15 +188,7 @@ div {
 
           }
 
-          /* .answer-letter {
-          font-size: 30px;
-          background-color: #0084da;
-          color: #fff;
-          width: 70px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          } */
+       
 
           .answer-text {
 
